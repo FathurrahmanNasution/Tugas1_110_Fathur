@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+<!-- body style="background-color:#8697c4;" digunakan untuk memberikan warna latar belakang pada halaman web-->
+ <!-- <form> adalah tag untuk membuat sebuah form yang dapat mengirim data, dengan atribut 'action' menentukan ke mana data form akan dikirim (di sini ke index.html), dan 'method' yang menentukan cara pengiriman data (di sini POST) -->
+<form action="..//index.html" method="post">
+    <!-- <h1> digunakan untuk membuat heading 1 dengan teks 'LOGIN PAGE', dan atribut style digunakan untuk memperbesar ukuran font -->
+    <h1 style="font-size: 20pt;">LOGIN PAGE</h1>
+    <!-- <label> digunakan untuk mendeskripsikan elemen input seperti 'email', atribut 'for' di sini merujuk pada elemen input dengan id yang sama (id="email") untuk mengaitkan label dengan input -->
+    <label for="email">email</label>
+    <!-- <input> dengan tipe 'text' digunakan untuk membuat kolom input teks, di sini untuk email. 'id' digunakan untuk mengaitkan dengan label dan mengidentifikasi elemen -->
+    <input type="text" id="email"><br>
+    <!-- <label> untuk mendeskripsikan input password, sama seperti pada email, label ini terkait dengan input password melalui atribut 'for' -->
+    <label for="password">password</label>
+    <!-- <input type="password"> digunakan untuk membuat kolom input untuk password. Tipe password menyembunyikan karakter yang dimasukkan, menampilkannya sebagai titik-titik atau tanda bintang -->
+    <input type="password" id="password"><br>
+     <!-- <input type="submit"> adalah tombol untuk mengirimkan form. Atribut 'value' menentukan teks yang ditampilkan pada tombol (di sini 'send') -->
+    <input type="submit" value="send"> <input type="reset"><br>
+    <!-- <br> adalah tag untuk membuat baris baru (line break) -->
+</form>
+</body>
+</html>
